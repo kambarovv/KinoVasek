@@ -1,0 +1,16 @@
+@media screen and (max-widht: 550px){
+    .title{
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .navigation-btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .categories-card{
+        font-size: 18px;
+        height: 80px;
+    }
+    .categories-card i{
+        font-size: 20px;
+    }

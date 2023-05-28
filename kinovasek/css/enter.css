@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 30px;
+    font-weight: normal;
+}
+  
+  /* header */
+  
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1.5%;
+    background-color: lightskyblue;
+    color: white;
+}
+.header-title{
+    font-weight: bold;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation-item{
+    margin: 0px 10px;
+}
+.navigation-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
+.navigation-btn:hover{
+    background-color: rgb(51, 169, 243);
+}
+.header-pagename{
+    width: 100%;
+    padding: 10px 1.5%;
+    background-color: lightcyan;
+    display: flex;
+}
+.header-pagename{ 
+    display: flex;
+    width: 100%;
+    padding: 10px 1.5%;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+  /* main */
+  
+.main-pagename{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.registation-main{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 40px;
+    background: rgba(248, 248, 209, 0.288);
+    border: 1px solid rgba(165, 161, 161, 0.377);
+}
+.main-registation{
+    display: flex;
+    justify-content: center;
+}
+.bold-link{
+    font-weight: 700;
+    color:rgb(38, 106, 148);
+}
+.second-bold-link:hover{
+    color: rgb(202, 146, 41);
+}
+.input{
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(165, 161, 161, 0.377);
+}
+.second-enter-title{
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.first-enter-title{
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 2% 0;
+}
+.inputs{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid rgba(165, 161, 161, 0.377);
+}
+.enter-btn{
+    height: 40px;
+    width: 110px;
+    background-color: rgba(106, 157, 189, 0.973);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+}
+.enter-btn:hover{
+    background-color: rgb(38, 106, 148);
+}
+
+  /* footer */
+
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 1.5%;
+    color: gray;
+}
+footer a{
+    color: gray;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.footer-card{
+    width: 23.5%;
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color: rgb(255, 165, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-card:hover{
+    background: none;
+}
+.footer-card i{
+    margin-right: 5px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right-img:hover{
+    box-shadow: 0px 0px 1px 3px lightskyblue;
+}
