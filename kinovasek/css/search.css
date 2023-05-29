@@ -67,75 +67,56 @@
   /* main */
   
 .main-pagename{
+    margin: 0 1.5%;
     display: flex;
-    justify-content: center;
     margin-top: 25px;
 }
-.registation-main{
-    margin: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 330px;
-    height: 40px;
-    background: rgba(248, 248, 209, 0.288);
-    border: 1px solid rgba(165, 161, 161, 0.377);
-}
-.first-bold-link:hover{
-    border-bottom: 2px solid rgb(38, 106, 148);
-}
-.main-registation{
-    display: flex;
-    justify-content: center;
-}
-.bold-link{
-    font-weight: 700;
-    color:rgb(38, 106, 148);
-}
-.second-bold-link:hover{
-    color: rgb(202, 146, 41);
+.now-search{
+    margin: 0 1.5%;
+    font-size: 18px;
+    font-weight: 500;
 }
 .input{
-    max-width: 330px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid rgba(165, 161, 161, 0.377);
-}
-.second-enter-title{
-    margin-top: 20px;
-    font-weight: 700;
-    padding: 2% 0;
-    display: flex;
-    justify-content: space-between;
+    margin: 0 1.5%;
 }
 .first-enter-title{
-    margin-top: 20px;
-    font-weight: 700;
-    padding: 2% 0;
+    margin-top: 5px;
+    color: gray;
 }
 .inputs{
-    width: 300px;
+    max-width: 600px;
+    width: 600px;
     padding: 10px;
     margin: 10px 0;
     font-size: 15px;
     font-weight: 500;
     border-radius: 2px;
-    border: 1px solid rgba(165, 161, 161, 0.377);
+    border: 3px solid rgba(165, 161, 161, 0.377);
 }
-.enter-btn{
-    height: 40px;
-    width: 110px;
-    background-color: rgba(106, 157, 189, 0.973);
+.search-first{
+    height: 45px;
+    width: 70px;
+    background-color: rgb(38, 106, 148);
+    color: #fff;
+    border: none;
+    margin: 0px 10px;
+}
+.search-first:hover{
+    background-color: #000;
+}
+.search-second{
+    font-size: 20px;
+    max-width: 100%;
+    width: 97%;
+    height: 45px;
+    background-color: rgb(117, 180, 219);
     color: #fff;
     border-radius: 5px;
     border: none;
-    margin: 10px 0;
+    margin: 20px 1.5%;
 }
-.enter-btn:hover{
-    background-color: rgb(38, 106, 148);
+.search-second:hover{
+    background-color: rgb(59, 162, 226);
 }
 
   /* footer */

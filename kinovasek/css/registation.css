@@ -71,68 +71,53 @@
     justify-content: center;
     margin-top: 25px;
 }
+.first-bold-link:hover{
+    border-bottom: 2px solid rgb(38, 106, 148);
+}
+.main-registation{
+    max-width: 1250px;
+    margin: 0 auto;
+}
 .registation-main{
     margin: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 330px;
+    width: 1250px;
     height: 40px;
     background: rgba(248, 248, 209, 0.288);
     border: 1px solid rgba(165, 161, 161, 0.377);
-}
-.first-bold-link:hover{
-    border-bottom: 2px solid rgb(38, 106, 148);
-}
-.main-registation{
-    display: flex;
-    justify-content: center;
 }
 .bold-link{
     font-weight: 700;
     color:rgb(38, 106, 148);
 }
-.second-bold-link:hover{
-    color: rgb(202, 146, 41);
-}
 .input{
-    max-width: 330px;
+    max-width: 730px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rgba(165, 161, 161, 0.377);
-}
-.second-enter-title{
-    margin-top: 20px;
-    font-weight: 700;
-    padding: 2% 0;
-    display: flex;
-    justify-content: space-between;
-}
-.first-enter-title{
-    margin-top: 20px;
-    font-weight: 700;
-    padding: 2% 0;
 }
 .inputs{
-    width: 300px;
+    width: 450px;
     padding: 10px;
     margin: 10px 0;
     font-size: 15px;
     font-weight: 500;
-    border-radius: 2px;
-    border: 1px solid rgba(165, 161, 161, 0.377);
+    border-radius: 5px;
+    border: 3px solid rgba(187, 182, 182, 0.377);
 }
 .enter-btn{
     height: 40px;
-    width: 110px;
+    width: 210px;
     background-color: rgba(106, 157, 189, 0.973);
     color: #fff;
     border-radius: 5px;
     border: none;
     margin: 10px 0;
+    margin-bottom: 25px;
 }
 .enter-btn:hover{
     background-color: rgb(38, 106, 148);
