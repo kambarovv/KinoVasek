@@ -1,0 +1,27 @@
+@media screen and (max-width: 550px){
+    .title{
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .navigation-btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .second-categories-card{
+        font-size: 18px;
+        height: 80px;
+    }
+    .second-categories-card i{
+        font-size: 20px;
+    }
+    .new-date{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px 40px 40px;
+        gap: 5px;
+        margin-top: 10px;
+    }
+    .footer-top{
+        font-size: 14px;
+    }
+}

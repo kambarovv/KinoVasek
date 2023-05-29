@@ -1,0 +1,41 @@
+@media screen and (max-width: 1300px){
+    .main-registation{
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    .registation-main{
+        width: 530px;
+    }
+}
+@media screen and (max-width: 550px){
+    .title{
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .navigation-btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .main-registation{
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .registation-main{
+        width: 450px;
+    }
+    .footer-top{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 470px){
+    .main-registation{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .registation-main{
+        width: 340px;
+    }
+    .inputs{
+        width: 330px;
+    }
+}
